@@ -40,15 +40,15 @@ If the computer cannot reach the next target in a single turn (because it would 
 ## Requirements
 
 - Python 3.8 or higher
-- No external dependencies
+- No external dependencies to play; pytest is required for tests
 
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/21-number-game.git
-cd 21-number-game
+git clone https://github.com/kshres31/21_number_game.git
+cd 21_number_game
 ```
 
 No additional packages need to be installed.
@@ -61,16 +61,17 @@ python main.py
 
 ## Testing
 
-Run the automated tests with pytest:
+Install pytest, then run the automated tests from the project directory:
 
 ```bash
-pytest
+python -m pip install pytest
+python -m pytest
 ```
 
 For verbose output:
 
 ```bash
-pytest -v
+python -m pytest -v
 ```
 
 ## Example Gameplay
